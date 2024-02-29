@@ -1,9 +1,9 @@
 # priority-mechanism
-thesis experiment
+thesis experiment development
 
 # Building the source
-1. `go build` in each folder
-2. create .env file
+1. `go build` in each folder.
+2. create .env file.
 * Leader folder
    - `MY_IP` Leader node's IP
    - `HttpPort` Leader node's http port
@@ -19,7 +19,9 @@ thesis experiment
    - `ClosestNodeIP` same as Miner node's IP
    - `ClosestNodePort` same as Miner node's tcp port
    - `LeadernodeInfoVersionPort` heartbeat port of nodes
-   - 
-3. Run node in each terminal
+3. Make `logs` folder.
 
-You must execute Leader node first.
+# Executables
+Run node in each terminal and you must execute Leader node first.
+
+If you need to restart all nodes, be sure to delete all `.json` files.
