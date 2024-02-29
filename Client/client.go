@@ -64,11 +64,11 @@ func transactionGenerator() {
 			break
 		}
 
-		// time.Sleep(time.Second * 1) // 1s -> 1tx/sec	-> 50
+		time.Sleep(time.Second * 1) // 1s -> 1tx/sec	-> 50
 		// time.Sleep(time.Millisecond * 200) // 5tx/sec -> 100
 		// time.Sleep(time.Millisecond * 100) // 0.1s -> 10tx/sec -> 200
 		// time.Sleep(time.Millisecond * 50) // 0.05s -> 20tx/sec -> 400
-		time.Sleep(time.Millisecond * 25) // 0.025s -> 40tx/sec -> 800
+		// time.Sleep(time.Millisecond * 25) // 0.025s -> 40tx/sec -> 800
 		// time.Sleep(time.Millisecond * 17) // 0.0107s -> 60tx/sec -> 1000
 		// time.Sleep(time.Millisecond * 12) // 0.0125s -> 80tx/sec -> 1500
 		// time.Sleep(time.Millisecond * 10) // 0.01s -> 100tx/sec -> 2000
